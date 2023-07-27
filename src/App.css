@@ -1,0 +1,7 @@
+.form-control,
+.form-select {
+  box-shadow: none !important;
+}
+.form-select {
+  border: black !important;
+}
