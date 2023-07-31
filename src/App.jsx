@@ -2,22 +2,24 @@ import "./App.css";
 import Card from "./components/Card";
 import Login from "./components/Login";
 import Nav from "./components/Nav";
-import Column from "./components/Column";
 
 const App = () => {
   return (
     <>
-      <Card>
-        <div className="container-fluid row shadow border p-4 rounded-5">
-          <Column>
-            <Nav />
-            <Login />
-          </Column>
-          <Column>
-            <div className="col p-5">Sign-up</div>
-          </Column>
+      <body className="vh-100 d-flex align-items-center">
+        <div className="container">
+          <Card>
+            <div className="col-md-6 py-4">
+              <Nav />
+              <Login />
+            </div>
+
+            <div className="col-md-6 d-flex justify-content-center align-items-center">
+              <img className="img-fluid" src="work.jpg" alt="" />
+            </div>
+          </Card>
         </div>
-      </Card>
+      </body>
     </>
   );
 };

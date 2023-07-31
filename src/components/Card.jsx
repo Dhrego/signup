@@ -1,8 +1,4 @@
 const Card = (props) => {
-  return (
-    <div className="container vh-100 d-flex justify-content-center align-items-center">
-      {props.children}
-    </div>
-  );
+  return <div className="container row shadow rounded-5">{props.children}</div>;
 };
 export default Card;
