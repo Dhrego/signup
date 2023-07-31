@@ -6,8 +6,8 @@ import Nav from "./components/Nav";
 const App = () => {
   return (
     <>
-      <body className="vh-100 d-flex align-items-center">
-        <div className="container">
+      <body className="container d-flex justify-content-center align-items-center">
+        
           <Card>
             <div className="col-md-6 py-4">
               <Nav />
@@ -18,7 +18,7 @@ const App = () => {
               <img className="img-fluid" src="work.jpg" alt="" />
             </div>
           </Card>
-        </div>
+        
       </body>
     </>
   );
