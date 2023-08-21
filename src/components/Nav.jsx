@@ -1,7 +1,7 @@
 const Nav = () => {
   return (
-    <nav className="d-flex align-items-center">
-      <p className="text-uppercase display-6 fw-semibold">dibbs</p>
+    <nav className="d-flex align-items-center p-3">
+      <p className="text-uppercase m-0 display-6 fw-semibold">dibbs</p>
       <div className="ms-auto">
         <select
           className="form-select border rounded-5"
